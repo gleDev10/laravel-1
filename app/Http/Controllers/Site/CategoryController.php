@@ -26,7 +26,6 @@ class CategoryController extends Controller
     public function show($slug)
     {
         return view('site.category.show', ['slug' => $slug]);
-
     }
 
 }
